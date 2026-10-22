@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: telegram-debug-apk
-        path: TMessagesProj/build/outputs/apk/afat/debug/app.apk
+        path: '**/*.apk'
